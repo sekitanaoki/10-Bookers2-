@@ -5,7 +5,7 @@
 
   <% @book.errors.full_messages.each do |message| %>
     <br>■<%= message %>
-  <% end %>
+  <% end %> 
 <% end %>  
 
 <%= form_with model:@book, local:true do |f| %>
